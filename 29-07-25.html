@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGSRTC BUS FORM</title>
+</head>
+<body>
+    <img src="../images/Screenshot 2025-07-29 170822.jpg" alt="logo"  width="100%">
+    <form action="./sumbitform.html" method="get" enctype="text/plain"  >
+        <fieldset>
+            <legend>application details</legend>
+            <label for="firstname">firstname:<sup style="color:red;">*</sup></label>
+            <input type="text" name="first name" id="firstname"  required>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+                  
+            <label for="father'sname">father's/guardianname:<sup style="color:red;">*</sup></label>
+            <input type="text" name="father'sname" id="father'sname" required>
+           <br>
+         <br>
+           <label for="date of birth">date of birth:<sup style="color:red;">*</sup></label>
+            <input type="date" name="date of birth" id="date of birth" required>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+            <label for="male">gender:<sup style="color:red;">*</sup></label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="female">male<sup style="color:red;"></sup></label>
+            <input type="radio" name="gender" id="female" value="female" required>
+             <label for="male">female<sup style="color:red;">*</sup></label>
+             <br>
+             <br>
+              <label for="number">whatsapp no:<sup style="color:red;">*</sup></label>
+            <input type="text" name="whatsapp no" id="number"  required>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+            <label for="email">email:<sup style="color:red;">*</sup></label>
+            <input type="text" name="email" id="email"  required>
+            <br>
+            <br>
+            <label for="photo">photo:<sup style="color:red;">*</sup></label>
+            <input type="file" name="photo" id="photo" required>
+             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+            <label for="aadhar">aadhar no:<sup style="color:red;">*</sup></label>
+            <input type="text" name="aadhar" id="aadhar" maxlength="12" minlength="12" required>
+             </fieldset>
+         
+                <fieldset>
+                    <legend>Residential address details</legend>
+            <label for="address">address:<sup style="color:red;">*</sup></label>
+           <textarea name="address" id="address"></textarea> 
+           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+           <label for="district">district:<sup style="color:red;">*</sup></label>
+           <select name="address" id="district">
+            <option value="krishna">krishna</option>
+         <option value="prakasham">prakasham</option>
+         <option value="telangana">telangana</option>
+         <option value="warangal">warangal</option>
+         <option value="godavari">godavari</option>       
+         </select>
+         <br>
+         <br>
+         <label for="mandal">mandal:<sup style="color:red;">*</sup></label>
+          <input type="text" name="mandal" id="mandal"  required>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+                       <label for="village">village:<sup style="color:red;">*</sup></label>
+           <select name="village" id="village">
+            <option value="vuyyuru">vuyyuru</option>
+         <option value="machilipatnam">machilipatnam</option>
+         <option value="nellore">nellore</option>
+         <option value="vijayawada">vijayawada</option>
+         <option value="guntur">guntur</option>       
+         </select>
+         <br>
+         <br>
+          <label for="pincode">pincode:<sup style="color:red;">*</sup></label>
+            <input type="pincode" name="pincode" id="pincode" required>
+        </fieldset>
+        <fieldset>
+            <legend>passtype Details</legend>
+          <label for="city">city:<sup style="color:red;">*</sup></label>
+           <select name="city" id="city">
+            <option value="hyderabad">hyderabad</option>
+         <option value="vijayawada">vijayawada</option>
+         <option value="bangalore">bangalore</option>
+         <option value="vizag">vizag</option>
+         <option value="delhi">delhi</option>       
+         </select>  
+         <br>
+         <br>
+          <label for="pass">passtype:<sup style="color:red;">*</sup></label>
+            <input type="text" name="pass" id="pass" required>
+         
+            
+        </fieldset>
+        <fieldset>
+            <legend>Mode of payment&pass collection</legend>
+            <label for="mode">Payment mode:<sup style="color:red;">*</sup></label>
+           <select name="mode" id="mode">
+            <option value="select">select payment mode</option>
+         <option value="payment">payment at counter</option>
+         </select>
+         <br>
+         <br>
+        <label for="mode">pass delivery mode:<sup style="color:red;">*</sup></label>
+           <select name="mode" id="mode">
+            <option value="select">select pass delivery mode</option>
+         <option value="pass">at counter</option>
+         </select>
+
+        </fieldset>
+        <center>
+        <img src="https://www.veerotech.net/kb/wp-content/uploads/2018/11/captcha.png.webp" width="20%">
+        <label for="captcha">captcha</label>
+         </center>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;
+
+         <input type="sumbit">     
+         
+    </form>
+</body>
+</html>
